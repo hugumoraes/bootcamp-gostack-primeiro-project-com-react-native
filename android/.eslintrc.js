@@ -3,6 +3,9 @@ module.exports = {
     es2020: true,
   },
   extends: ['airbnb', 'prettier', 'prettier/react'],
+  globals: {
+    __DEV__: 'readonly',
+  },
   parser: 'babel-eslint',
   parserOptions: {
     ecmaFeatures: {
