@@ -6,7 +6,7 @@ import { View, Text } from 'react-native';
 const User = () => {
   return (
     <View>
-      <Text>Olá 2</Text>
+      <Text>Hello from User</Text>
     </View>
   );
 };
